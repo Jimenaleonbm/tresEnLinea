@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo|Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>TRICKY</title>
+</head>
+<body>
+
+
+    <h1> Tricky </h1>
+
+    <div id="juego">
+        <h2 id="turno">Turno Jugador: 1</h2>
+        <!-- <input type="button" value="atras" onclick="history.go(-1)"> -->
+        <table id="tableGame">
+            <tr>
+                <td><button id="p00"></button></td>
+                <td><button id="p01"></button></td>
+                <td><button id="p02"></button></td>
+            </tr>
+            <tr>
+                <td><button id="p10"></button></td>
+                <td><button id="p11"></button></td>
+                <td><button id="p12"></button></td>
+            </tr>
+            <tr>
+                <td><button id="p20"></button></td>
+                <td><button id="p21"></button></td>
+                <td><button id="p22"></button></td>
+            </tr>
+        </table>
+        <div class="puntaje">
+            <p>JUEGOS GANADOS</p>   
+            <ul>
+                <li>Jugador 1: <span id="jug1"></span></li>
+                <li>Jugador 2: <span id="jug2"></span></li>
+                <li>Total Juegos: <span id="jugtotal"></span></li>
+            </ul>
+            <span id="date" style="font-size: 12px;"></span>
+        </div>
+    </div>
+
+    <div align="center" id="seleccione">
+            <h3>SELECCIONE OPONENTE</h3>
+            <button class="seleccione" onclick="selectuser('friend')">Amigo</button> <button class="seleccione" onclick="selectuser('pc')">PC</button>
+    </div>
+
+
+
+    
+    <footer onClick="abrirWeb()">
+        <ul class="conceptos">
+            <li onClick="showInfo('javaScript');">JavaScript</li>
+            <li onClick="showInfo('objetos')">Tipos de Datos</li>
+            <li onClick="showInfo('dataTypes')">Objetos</li>
+        </ul>
+        Creado por: JIMENA MARTIN        
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

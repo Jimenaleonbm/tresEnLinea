@@ -1,0 +1,101 @@
+table {
+    width: 170;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    border-collapse: collapse;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Exo', sans-serif;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    /* margin-bottom: 0; */
+    color: #ff8b94;
+}
+h2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+tr:not(:last-child) {
+    border-bottom: 6px solid #33FF90;
+}
+td:not(:last-child) {
+    border-right: 6px solid #33FF90;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    background-size: 90%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.puntaje {
+    background: rgba(84, 84, 84, 0.85);
+    padding: 20px 20px 20px;
+    width: 260px;
+    color: #ffffff;
+    font-weight: 100;
+    float: right;
+}
+
+.puntaje  p{
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 800;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #5ecaf1;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.seleccione {
+    background: #e7b2ff;
+    width: 150px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    height: 50px;
+}
+
+#juego {
+    height: 0;
+    opacity: .2;
+    transition: 1s all ease;
+    overflow: hidden;
+}
+
+.conceptos{
+    list-style: none;
+    text-align: center;
+    color: #000;
+}
+.conceptos li{
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 0 10px;
+}
